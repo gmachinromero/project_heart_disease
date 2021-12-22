@@ -31,9 +31,10 @@ The data contains 918 observations with 12 attributes:
     - RestingBP: resting blood pressure
     - Cholesterol: serum cholesterol
     - FastingBS: fasting blood sugar (0, 1)
-    - RestingECG: resting electrocardiogram results
+    - RestingECG: resting electrocardiogram results (Normal, ST, LVH)
     - MaxHR: maximum heart rate achieved
     - ExcersiseAngina: excersise induced angina (Y, N)
-    - Oldpeak: oldpeak = ST
+    - Oldpeak:
+    - ST_Slope: categorized Oldpeak. Segment shift relative to exercise-induced increments in heart rate
     - HeartDisease: label
 
